@@ -1,0 +1,7 @@
+<launch>
+  <!-- Run the publisher node -->
+  <node name="publisher_node" pkg="test_package" type="publisher_node.py" output="screen"/>
+
+  <!-- Run the subscriber node -->
+  <node name="subscriber_node" pkg="test_package" type="subscriber_node.py" output="screen"/>
+</launch>
